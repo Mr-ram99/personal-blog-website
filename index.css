@@ -1,5 +1,5 @@
-@import "/posts/blog_post_css.css";
-@import "/posts/media-css.css";
+@import "posts/blog_post_css.css";
+@import "posts/media-css.css";
 body{
     box-sizing: border-box;
     padding: 0;

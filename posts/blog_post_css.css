@@ -65,17 +65,3 @@ footer{
 .avatar{
     width: 25px;
 }
-
-@media screen and (max-width:600px){
-    .author-info-section{
-        flex-direction: column;
-        gap:20px;
-    }
-    .socials{
-        justify-content: flex-start;
-        gap: 10px;
-    }
-    .post-banner-img{
-        width: 100%;
-    }
-}
