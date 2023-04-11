@@ -1,5 +1,7 @@
-@import "posts/blog_post_css.css";
-@import "posts/media-css.css";
+@import "blog_post_css.css";
+@import "responsive.css";
+@import "header.css";
+@import "footer.css";
 body{
     box-sizing: border-box;
     padding: 0;
@@ -20,25 +22,12 @@ figcaption{
     "footer footer footer footer"
     ;
 }
-header{
-    grid-area: header;
-    background-color: #e1e0e0;
-}
-.logo{
-    padding: 5px 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
 main{
     grid-area: main;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #edededc7;
-}
-footer{
-    grid-area: footer;
-    text-align: center;
-    background-color: #e1e0e0;
 }
 .card{
     width: 350px;
